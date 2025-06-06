@@ -10,8 +10,7 @@ def main():
     
     while True:
         display_menu()
-        choice = input("Enter your choice: ").strip()
-
+        choice = input("Enter the item to add: ").strip()
         if choice == '1':
             item = input("Enter item to add: ").strip()
             if item:
